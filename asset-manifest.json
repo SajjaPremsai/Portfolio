@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.0e4b8f3b.css",
+    "main.js": "/Portfolio/static/js/main.6ef23c6d.js",
+    "static/js/787.aea1f7fa.chunk.js": "/Portfolio/static/js/787.aea1f7fa.chunk.js",
+    "static/media/Python Project for AI & Application Development_page-0001.jpg": "/Portfolio/static/media/Python Project for AI & Application Development_page-0001.0c11043e4996c9f0da0a.jpg",
+    "static/media/Introduction to Containers Docker , Kubernetes and Open Shift_page-0001.jpg": "/Portfolio/static/media/Introduction to Containers Docker , Kubernetes and Open Shift_page-0001.fc15e03c64211499cd96.jpg",
+    "static/media/Developing Applications with SQL, Databases, and Django_page-0001.jpg": "/Portfolio/static/media/Developing Applications with SQL, Databases, and Django_page-0001.cf300cd59955275bf697.jpg",
+    "static/media/Developing back-end with node.js and express_page-0001.jpg": "/Portfolio/static/media/Developing back-end with node.js and express_page-0001.5c342f5f9d0eaa60f003.jpg",
+    "static/media/Application Development using Microservices and Serverless_page-0001.jpg": "/Portfolio/static/media/Application Development using Microservices and Serverless_page-0001.5d9383245035a0524537.jpg",
+    "static/media/Git and GitHub_page-0001.jpg": "/Portfolio/static/media/Git and GitHub_page-0001.68aec9347f7781fbd55a.jpg",
+    "static/media/Introduction to HTML,CSS & JS_page-0001.jpg": "/Portfolio/static/media/Introduction to HTML,CSS & JS_page-0001.4f0b7a77ab044d7637a6.jpg",
+    "static/media/Python for Data Science, AI & Development_page-0001.jpg": "/Portfolio/static/media/Python for Data Science, AI & Development_page-0001.1ace793d56e8ca3da852.jpg",
+    "static/media/Developing Front-end using React_page-0001.jpg": "/Portfolio/static/media/Developing Front-end using React_page-0001.e9d447a06d5808f53f50.jpg",
+    "static/media/Cloud Computing_page-0001.jpg": "/Portfolio/static/media/Cloud Computing_page-0001.def9962bc56be2ed0acc.jpg",
+    "static/media/Todo.png": "/Portfolio/static/media/Todo.dbcdf565557146d24b3b.png",
+    "static/media/myimg.png": "/Portfolio/static/media/myimg.7d6fa0cbaf437d6a543e.png",
+    "static/media/React.png": "/Portfolio/static/media/React.b4478729c8aff3203288.png",
+    "static/media/python.png": "/Portfolio/static/media/python.6a5cbc319ab3ddf8ef92.png",
+    "static/media/java.png": "/Portfolio/static/media/java.ddf8676bd569fe01ab44.png",
+    "static/media/kuber.png": "/Portfolio/static/media/kuber.88e38f11b997f80e8998.png",
+    "static/media/git.png": "/Portfolio/static/media/git.fd1a85d6be07fd88fb05.png",
+    "static/media/docker.png": "/Portfolio/static/media/docker.89cf461901a88724368a.png",
+    "static/media/Weather.png": "/Portfolio/static/media/Weather.22bcc7239e1a859725cf.png",
+    "static/media/IndianServers.jpeg": "/Portfolio/static/media/IndianServers.6102c8894c385ac3a4a6.jpeg",
+    "static/media/school.svg": "/Portfolio/static/media/school.a41655f6d5350015803153c7410cef6a.svg",
+    "index.html": "/Portfolio/index.html",
+    "static/media/work.svg": "/Portfolio/static/media/work.3710b62484ed638074240e99317c6c60.svg",
+    "main.0e4b8f3b.css.map": "/Portfolio/static/css/main.0e4b8f3b.css.map",
+    "main.6ef23c6d.js.map": "/Portfolio/static/js/main.6ef23c6d.js.map",
+    "787.aea1f7fa.chunk.js.map": "/Portfolio/static/js/787.aea1f7fa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e4b8f3b.css",
+    "static/js/main.6ef23c6d.js"
+  ]
+}
