@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Form, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./ContactMe.css"
-// import axios from 'axios';
+import axios from 'axios';
 import toast, { Toaster } from 'react-hot-toast';
 
 export default function ContactMe() {
@@ -17,24 +17,28 @@ export default function ContactMe() {
     setIsDisabled(true);
      // API Call.......
 
-    // await axios.post("http://localhost:8938/suggestion",{
-    //    name:Name,
-    //    email:Email,
-    //    subject:Subject,
-    //    text:Description
-    //  })
-    //  .then((response)=>{
-    //   console.log(response)
-    //  })
-    //  .catch((err)=>{
-    //   console.log(err)
-    //  })
+    await axios.post("https://suggestionsender.azurewebsites.net/",{
+       name:Name,
+       email:Email,
+       subject:Subject,
+       text:Description
+     })
+     .then((response)=>{
+      console.log(response)
+     })
+     .catch((err)=>{
+      console.log(err)
+     })
+
+    setDescription("")
+    setEmail("")
+    setName("")
+    setSubject("")
 
 
-
-    toast('Website currently in development. Thank you for your input. Stay tuned!',{
+    toast('Code upgraded, appreciate the input! More tweaks?',{
       duration:5000,
-      icon:  '🚧',
+      icon:  '🚀',
     });
 
     setTimeout(() => {
