@@ -11,43 +11,47 @@ export default function ContactMe() {
   const [Subject , setSubject] = useState("")
   const [Description , setDescription] = useState("")
   const [isDisabled, setIsDisabled] = useState(false);
-  const SendSuggestion = async(e)=>{
-     console.log(Name,Email,Subject,Description)
+  const SendSuggestion = async (e) => {
     e.preventDefault();
+
+    // Basic form validation
+    if (!Name || !Email || !Subject || !Description) {
+      toast.error('Please fill in all fields!', {
+        duration: 3000,
+        icon: '❌',
+      });
+      return;
+    }
+
     setIsDisabled(true);
-     // API Call.......
+    try {
+      await axios.post("https://suggestionsender.azurewebsites.net/", {
+        name: Name,
+        email: Email,
+        subject: Subject,
+        text: Description,
+      });
+      setDescription("");
+      setEmail("");
+      setName("");
+      setSubject("");
 
-    await axios.post("https://suggestionsender.azurewebsites.net/",{
-       name:Name,
-       email:Email,
-       subject:Subject,
-       text:Description
-     })
-     .then((response)=>{
-      console.log(response)
-     })
-     .catch((err)=>{
-      console.log(err)
-     })
-
-    setDescription("")
-    setEmail("")
-    setName("")
-    setSubject("")
-
-
-    toast('Code upgraded, appreciate the input! More tweaks?',{
-      duration:5000,
-      icon:  '🚀',
-    });
-
-    setTimeout(() => {
-      setIsDisabled(false);
-    }, 5000);
-
-
-     
-  }
+      toast.success('Code upgraded, appreciate the input! More tweaks?', {
+        duration: 5000,
+        icon: '🚀',
+      });
+    } catch (err) {
+      console.error(err);
+      toast.error('Submission failed. Please try again later.', {
+        duration: 3000,
+        icon: '❌',
+      });
+    } finally {
+      setTimeout(() => {
+        setIsDisabled(false);
+      }, 5000);
+    };
+  };
 
   const HandelName = (e)=>{
     setName(e.target.value)
