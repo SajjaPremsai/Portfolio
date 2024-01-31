@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.0e4b8f3b.css",
-    "main.js": "/Portfolio/static/js/main.618097b0.js",
+    "main.js": "/Portfolio/static/js/main.b8a86b8c.js",
     "static/js/787.aea1f7fa.chunk.js": "/Portfolio/static/js/787.aea1f7fa.chunk.js",
     "static/media/Python Project for AI & Application Development_page-0001.jpg": "/Portfolio/static/media/Python Project for AI & Application Development_page-0001.0c11043e4996c9f0da0a.jpg",
     "static/media/Introduction to Containers Docker , Kubernetes and Open Shift_page-0001.jpg": "/Portfolio/static/media/Introduction to Containers Docker , Kubernetes and Open Shift_page-0001.fc15e03c64211499cd96.jpg",
@@ -27,11 +27,11 @@
     "index.html": "/Portfolio/index.html",
     "static/media/work.svg": "/Portfolio/static/media/work.3710b62484ed638074240e99317c6c60.svg",
     "main.0e4b8f3b.css.map": "/Portfolio/static/css/main.0e4b8f3b.css.map",
-    "main.618097b0.js.map": "/Portfolio/static/js/main.618097b0.js.map",
+    "main.b8a86b8c.js.map": "/Portfolio/static/js/main.b8a86b8c.js.map",
     "787.aea1f7fa.chunk.js.map": "/Portfolio/static/js/787.aea1f7fa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0e4b8f3b.css",
-    "static/js/main.618097b0.js"
+    "static/js/main.b8a86b8c.js"
   ]
 }
