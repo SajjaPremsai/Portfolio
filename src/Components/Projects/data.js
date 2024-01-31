@@ -1,5 +1,6 @@
 import todo from "./Assests/Todo.png"
 import weather from "./Assests/Weather.png"
+import jwt from "./Assests/icons8-jwt-96.png"
 const timelineElements = [
     {
         id: 1,
@@ -21,6 +22,17 @@ const timelineElements = [
         deployed: "Deployed on 4th September 2023",
         tags: [
             "Redux", "React", "Hooks", "Node.js"
+        ]
+    },
+    {
+        id: 3,
+        link: "https://express-authentication-client.onrender.com",
+        image: jwt,
+        title: "React-Express JWT Authentication App",
+        description: "The React-Express JWT Authentication App is a full-stack web application designed for secure user authentication. React is employed to build a dynamic and responsive user interface, while Express.js serves as the robust backend framework. Authentication is implemented using JSON Web Tokens (JWT), ensuring stateless and scalable user verification.",
+        deployed: "Deployed on 31st January 2024",
+        tags: [
+            "React", "Express", "cors", "Authentication" , "jsonwebtoken"
         ]
     }
 ];
