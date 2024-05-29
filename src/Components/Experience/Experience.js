@@ -29,7 +29,7 @@ export default function Experience() {
                               <h3 className="vertical-timeline-element-title">{element.Name}</h3>
                               <h4 className="vertical-timeline-element-subtitle">{element.Location}</h4>
                               <p id='description'>{element.description}</p>
-                              <a className="button" href={element.buttonlink}  target="_blank"><img src={github} width={20} height={20} alt="GitHub Logo" /> <span>View Project on Github</span></a>
+                                <a className="button" href={element.buttonlink} target="_blank" rel="noreferrer"><img src={github} width={20} height={20} alt="GitHub Logo" /> <span>View Project on Github</span></a>
                             </VerticalTimelineElement>
                              )
                         })

@@ -84,7 +84,7 @@ export default function ContactMe() {
           </p>
           <div className="Contact-icon">
             <span className='icon1'>
-              <a href="https://instagram.com/code_demon_?igshid=YTQwZjQ0NmI0OA%3D%3D&utm_source=qr" target="_blank">
+              <a href="https://instagram.com/code_demon_?igshid=YTQwZjQ0NmI0OA%3D%3D&utm_source=qr" target="_blank" rel="noreferrer">
                 <svg
                   
                   xmlns="http://www.w3.org/2000/svg"
@@ -98,7 +98,7 @@ export default function ContactMe() {
                 </svg></a>
             </span>
             <span className='icon2'>
-              <a href="https://github.com/SajjaPremsai" target="_blank">
+              <a href="https://github.com/SajjaPremsai" target="_blank" rel="noreferrer">
               <svg
               
                 xmlns="http://www.w3.org/2000/svg"
@@ -113,7 +113,7 @@ export default function ContactMe() {
               </a>
             </span>
             <span className='icon3'>
-              <a href="https://www.linkedin.com/in/prem-sai-097a95251" target="_blank">
+              <a href="https://www.linkedin.com/in/prem-sai-097a95251" target="_blank" rel="noreferrer">
               <svg
               
                 xmlns="http://www.w3.org/2000/svg"
