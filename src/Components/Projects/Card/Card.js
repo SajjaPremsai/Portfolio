@@ -10,7 +10,7 @@ export default function Card({element}) {
       <CCard className="text-center">
         <CCardHeader style={{ color:"#EC4D37"}}>{element.title}</CCardHeader>
         <CCardBody>
-          <img src={element.image} width={100} height={100} />
+          <img src={element.image} width={100} height={100} alt='Certificate' />
           <CCardText>{element.description}</CCardText>
           <CButton href={element.link} target='_blank' style={{ backgroundColor: "#EC4D37", borderColor: "#EC4D37" ,  fontSize : "18px"}}>Live Demo</CButton>
         </CCardBody>
