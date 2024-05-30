@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.cc980cd8.css",
-    "main.js": "/Portfolio/static/js/main.68d404c7.js",
-    "static/js/787.1045546a.chunk.js": "/Portfolio/static/js/787.1045546a.chunk.js",
+    "main.js": "/Portfolio/static/js/main.0ca5d26c.js",
+    "static/js/787.dcde50e9.chunk.js": "/Portfolio/static/js/787.dcde50e9.chunk.js",
     "static/media/Full Stack Professional.jpg": "/Portfolio/static/media/Full Stack Professional.063d50d82c9ada405ca5.jpg",
     "static/media/Tensorflow Developer Certificate.jpg": "/Portfolio/static/media/Tensorflow Developer Certificate.a84f59320973d4ad1827.jpg",
     "static/media/Programming In Java.jpg": "/Portfolio/static/media/Programming In Java.cd5a6f85e86341e60cfa.jpg",
@@ -28,11 +28,11 @@
     "static/media/html.svg": "/Portfolio/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "static/media/pandas.svg": "/Portfolio/static/media/pandas.b6ed8692593d49a0abce10c2a7772ed1.svg",
     "main.cc980cd8.css.map": "/Portfolio/static/css/main.cc980cd8.css.map",
-    "main.68d404c7.js.map": "/Portfolio/static/js/main.68d404c7.js.map",
-    "787.1045546a.chunk.js.map": "/Portfolio/static/js/787.1045546a.chunk.js.map"
+    "main.0ca5d26c.js.map": "/Portfolio/static/js/main.0ca5d26c.js.map",
+    "787.dcde50e9.chunk.js.map": "/Portfolio/static/js/787.dcde50e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cc980cd8.css",
-    "static/js/main.68d404c7.js"
+    "static/js/main.0ca5d26c.js"
   ]
 }
