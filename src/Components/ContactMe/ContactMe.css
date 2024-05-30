@@ -51,8 +51,25 @@
     fill: #ffff;
 }
 .Contact-Form {
-    width: 100%;
-    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    background-color: #EC4D37;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #D0432E;
 }
 
 .Form-header {
