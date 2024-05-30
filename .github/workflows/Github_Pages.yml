@@ -2,7 +2,7 @@ name: GitHub_Pages
 
 on: 
   push:
-    branches: [ deploy-to-gh-pages ]
+    branches: [ master ]
 
 permissions:
   contents: read  
