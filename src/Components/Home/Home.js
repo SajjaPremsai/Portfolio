@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Home.css"
 import { useTypewriter } from 'react-simple-typewriter'
-import img from "../../assets/Images/myimg.png"
+import img from "../../assets/Skills/myimg.png"
 import BackToTopButton from '../BacktoTopButton/BacktoTopButton'
 
 
