@@ -14,7 +14,7 @@ export default function About() {
             </div>
             <div className='About-Des'>
                 <p>
-                    Sajja Prem Sai is a third-year student pursuing a B.Tech in Computer Science, specializing in Artificial Intelligence and Machine Learning at Avanthi Institute of Engineering and Technology. 
+                    Sajja Prem Sai is a final year student pursuing a B.Tech in Computer Science, specializing in Artificial Intelligence and Machine Learning at Avanthi Institute of Engineering and Technology. 
                     Proficient in Java, Python, Node.js, HTML, CSS, and React, Prem also has a basic understanding of Docker and Kubernetes, with knowledge of creating images and containers. 
                     Additionally, Prem possesses a grasp of Kubernetes architecture and the retrieval of data from running nodes, along with a solid foundation in Data Structures and Algorithms(DSA).
                 </p>
