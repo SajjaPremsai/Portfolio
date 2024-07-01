@@ -60,5 +60,5 @@ Hello! I'm Sajja Prem Sai, a third-year student pursuing a B.Tech in Computer Sc
     - [Project Link](https://github.com/SajjaPremsai/Internships/tree/master/Indian%20Servers/Finetuning_Llama2)
 
 ## Contact Information
-- Email: [your.email@example.com](mailto:your.email@example.com)
-- LinkedIn: [linkedin.com/in/your-profile](https://www.linkedin.com/in/prem-sai-097a95251)
+- Email: [sajjapremsai8938@gmail.com](mailto:sajjapremsai8938@gmail.com)
+- LinkedIn: [linkedin.com/in/SajjaPremsai](https://www.linkedin.com/in/SajjaPremsai)
