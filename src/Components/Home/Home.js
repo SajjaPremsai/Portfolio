@@ -7,7 +7,7 @@ import BackToTopButton from '../BacktoTopButton/BacktoTopButton'
 
 export default function Home() {
     const [text] = useTypewriter({
-        words: [" Full Stack Developer", "Software Developer", " Prem Sai"  ],
+        words: [" Full Stack Developer", " Software Developer", " Prem Sai"  ],
         loop: {},
         typeSpeed: 120,
         deleteSpeed: 80,
